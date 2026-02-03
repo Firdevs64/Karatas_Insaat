@@ -1,0 +1,7 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  /* Background color to match theme if needed */
+  background-color: #f8f9fa; /* Mantine gray 0 or similar light bg */
+}

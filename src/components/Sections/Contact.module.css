@@ -1,0 +1,99 @@
+.contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.header {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 1.2;
+    color: black;
+}
+
+.formWrapper {
+    padding-right: 20px;
+}
+
+.infoWrapper {
+    padding-left: 20px;
+}
+
+.formTitle,
+.infoTitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.iconBox {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--mantine-color-gray-0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.item:hover .iconBox {
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+
+.itemTitle {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.control {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.control:hover {
+    background-color: var(--mantine-color-gray-8);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+
+    .formWrapper,
+    .infoWrapper {
+        padding: 0;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+}

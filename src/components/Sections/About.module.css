@@ -1,0 +1,35 @@
+.subtitle {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--mantine-color-gray-6);
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.imageWrapper {
+    overflow: hidden;
+    border-radius: var(--mantine-radius-sm);
+}
+
+.image {
+    transition: transform 0.5s ease;
+}
+
+.imageWrapper:hover .image {
+    transform: scale(1.05);
+}

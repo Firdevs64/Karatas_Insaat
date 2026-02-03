@@ -1,0 +1,21 @@
+.footer {
+    margin-top: 0;
+    /* Removing top margin as it will be handled by sections */
+    border-top: 1px solid var(--mantine-color-gray-2);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--mantine-color-gray-0);
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .inner {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
